@@ -24,7 +24,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "puppet-server" do |server|
     server.vm.hostname = "puppetserver-01.treeipe.com"
-    server.hostmanager.aliases = %w(puppetserver-01.treeipe.com puppetserver-01)
+    server.hostmanager.aliases = %w(puppetserver-01.treeipe.com puppetserver-01 puppet)
     server.vm.network :private_network, ip: "10.10.13.10"
     server.vm.network "forwarded_port", guest: 8140, host: 8140
 

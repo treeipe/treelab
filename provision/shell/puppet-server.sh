@@ -47,6 +47,4 @@ else
     wget https://gist.githubusercontent.com/avandrevitor/86319d80065f35616ff914580ea59327/raw/53220a893521dd8b46955270f00adbf5d81b2bb5/.vimrc \
     -O /home/vagrant/.vimrc
 
-
-
 fi
